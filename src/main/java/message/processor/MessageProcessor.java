@@ -1,8 +1,8 @@
 package message.processor;
 
-public interface MessageProcessor<T> {
+public interface MessageProcessor {
 
-    boolean canProcess(String type);
+    boolean canProcess(String message);
 
-    T process(String message);
+    String process(String message);
 }
