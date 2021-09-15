@@ -1,6 +1,6 @@
-package message.processor;
+package message.processor.incoming;
 
-public interface MessageProcessor {
+public interface IncomingMessageProcessor {
 
     boolean canProcess(String message);
 
